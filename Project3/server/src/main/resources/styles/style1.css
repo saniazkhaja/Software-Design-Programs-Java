@@ -1,0 +1,28 @@
+.border {
+    -fx-padding: 20 20 20 20;
+    -fx-background-color: #ccfff6;
+}
+
+.VBox {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-spacing: 20;
+}
+
+#portNumRequest {
+    -fx-font-size: 25px;
+    -fx-background-color: #ffffff;
+}
+
+#portNum {
+    -fx-font-size: 20px;
+    -fx-background-color: #ffffff;
+}
+
+#start {
+    -fx-background-color: #00ffa0;
+}
+
+#start:hover {
+    -fx-background-color: #acf8db;
+}

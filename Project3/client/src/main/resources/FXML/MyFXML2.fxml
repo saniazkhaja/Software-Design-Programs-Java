@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" styleClass="border" fx:controller="Controller" fx:id = "root2">
+    <center>
+        <VBox styleClass="VBox" alignment="CENTER">
+            <Text text = "Waiting for another player..."/>
+        </VBox>
+    </center>
+</BorderPane>

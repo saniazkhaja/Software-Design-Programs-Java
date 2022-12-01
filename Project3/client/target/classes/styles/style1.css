@@ -1,0 +1,47 @@
+.border {
+    -fx-padding: 20 20 20 20;
+    -fx-background-color: #e5f6ff;
+}
+
+.VBox {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-spacing: 20;
+}
+
+#portNumRequest {
+    -fx-font-size: 25px;
+}
+
+#portNum {
+    -fx-font-size: 20px;
+    -fx-background-color: #ffffff;
+}
+
+#start {
+    -fx-background-color: #a6b5f8;
+}
+
+#start:hover {
+    -fx-background-color: #d8defc;
+}
+
+#newGameButton {
+    -fx-font-size: 16px;
+    -fx-background-color: #90f8d0;
+}
+
+#newGameButton:hover {
+    -fx-font-size: 16px;
+    -fx-background-color: #d6ffe4;
+}
+
+#quitGameButton {
+    -fx-font-size: 16px;
+    -fx-background-color: #fdaca9;
+}
+
+#quitGameButton:hover {
+    -fx-font-size: 16px;
+    -fx-background-color: #ffded6;
+}

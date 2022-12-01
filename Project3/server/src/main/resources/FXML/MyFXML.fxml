@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.HBox?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" styleClass="border" fx:controller="Controller" fx:id = "root">
+    <center>
+        <VBox styleClass="VBox" prefWidth="250" alignment="CENTER">
+            <Text fx:id = "portNumRequest" text="Enter port number to start Connect 4 Server" textAlignment="CENTER"/>
+            <TextField fx:id = "portNum" editable="true" alignment="CENTER" focusTraversable="false" promptText="Enter port number here" maxWidth="400"/>
+            <Button fx:id = "start" text = "Start Server" onAction="#startButtonMethod"/>
+        </VBox>
+    </center>
+</BorderPane>
