@@ -1,0 +1,69 @@
+.border {
+    -fx-padding: 20 20 20 20;
+    -fx-background-color: #e5f6ff;
+}
+
+.VBox {
+    -fx-padding: 20 20 20 20;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-spacing: 20;
+}
+
+.VBoxColor {
+    -fx-padding: 20 20 20 20;
+    -fx-background-color: #e5eafa;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-spacing: 5;
+}
+
+.bigText {
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-spacing: 5;
+}
+
+.smallText {
+    -fx-font-size: 15px;
+    -fx-font-weight: normal;
+    -fx-spacing: 5;
+}
+
+.borderServer {
+    -fx-padding: 20 20 20 20;
+    -fx-background-color: #a6e2f8;
+}
+
+.borderClient {
+    -fx-padding: 20 20 20 20;
+    -fx-background-color: #a6b5f8;
+}
+
+#clientStartButton {
+    -fx-background-color: #a6b5f8;
+}
+
+#clientStartButton:hover {
+    -fx-background-color: #d8defc;
+}
+
+#sendMessageButton {
+    -fx-background-color: #a6e2f8;
+}
+
+#sendMessageButton:hover {
+    -fx-background-color: #d8f4fc;
+}
+
+#serverStartButton {
+    -fx-background-color: #a6e2f8;
+}
+
+#serverStartButton:hover {
+    -fx-background-color: #d8f4fc;
+}
+
+#listClients {
+    -fx-padding: 20 20 20 20;
+}

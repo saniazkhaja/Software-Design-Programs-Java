@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.ListView?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" styleClass="borderServer" fx:controller="Controller" fx:id = "serverScreen">
+    <center>
+        <VBox styleClass="VBox" alignment="CENTER">
+            <Text text="Server ListView Info" styleClass="bigText" textAlignment="CENTER"/>
+            <ListView fx:id = "listItemsServer" />
+        </VBox>
+    </center>
+</BorderPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.ListView?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" styleClass="borderClient" fx:controller="Controller" fx:id = "clientScreen">
+    <left>
+        <VBox styleClass="VBoxColor" alignment="CENTER">
+            <Text text="Clients List" styleClass="bigText" textAlignment="CENTER"/>
+            <Text text="Select the clients you want to send a message to (hold ctrl to select more than 1 client)" wrappingWidth="300" styleClass="smallText" textAlignment="CENTER"/>
+            <ListView fx:id = "listClients" />
+        </VBox>
+    </left>
+    <center>
+        <VBox styleClass="VBox" alignment="CENTER">
+            <Text fx:id = "clientNum" styleClass="bigText" text="Client" textAlignment="CENTER"/>
+            <TextField fx:id = "clientMessageField" focusTraversable="false" promptText="Write message here" alignment="CENTER"/>
+            <Button fx:id = "sendMessageButton" text = "Send Message" textAlignment="CENTER" onAction="#sendMessage"/>
+            <Text text="Messages" styleClass="bigText" textAlignment="CENTER"/>
+            <ListView fx:id = "listMessagesClient"/>
+        </VBox>
+    </center>
+</BorderPane>
